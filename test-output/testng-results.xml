@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51728" started-at="2022-09-21T10:13:48Z" finished-at="2022-09-21T10:14:40Z">
+    <groups>
+      <group name="addcart">
+        <method signature="Amazon.addcart(java.lang.String)[pri:1, instance:org.in.Amazon@66a3ffec]" name="addcart" class="org.in.Amazon"/>
+      </group> <!-- addcart -->
+      <group name="cart2">
+        <method signature="Amazon.Buy(java.lang.String)[pri:2, instance:org.in.Amazon@66a3ffec]" name="Buy" class="org.in.Amazon"/>
+      </group> <!-- cart2 -->
+    </groups>
+    <test name="Default test" duration-ms="51728" started-at="2022-09-21T10:13:48Z" finished-at="2022-09-21T10:14:40Z">
+      <class name="org.in.Amazon">
+        <test-method status="PASS" signature="browse()[pri:0, instance:org.in.Amazon@66a3ffec]" name="browse" is-config="true" duration-ms="2310" started-at="2022-09-21T15:43:48Z" finished-at="2022-09-21T15:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="PASS" signature="link()[pri:0, instance:org.in.Amazon@66a3ffec]" name="link" is-config="true" duration-ms="2088" started-at="2022-09-21T15:43:51Z" finished-at="2022-09-21T15:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method status="PASS" signature="addloaction()[pri:0, instance:org.in.Amazon@66a3ffec]" name="addloaction" duration-ms="13947" started-at="2022-09-21T15:43:53Z" finished-at="2022-09-21T15:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addloaction -->
+        <test-method status="PASS" signature="link()[pri:0, instance:org.in.Amazon@66a3ffec]" name="link" is-config="true" duration-ms="2681" started-at="2022-09-21T15:44:07Z" finished-at="2022-09-21T15:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method status="PASS" signature="addcart(java.lang.String)[pri:1, instance:org.in.Amazon@66a3ffec]" name="addcart" duration-ms="9550" started-at="2022-09-21T15:44:09Z" finished-at="2022-09-21T15:44:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Creatine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcart -->
+        <test-method status="PASS" signature="link()[pri:0, instance:org.in.Amazon@66a3ffec]" name="link" is-config="true" duration-ms="2790" started-at="2022-09-21T15:44:19Z" finished-at="2022-09-21T15:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method status="PASS" signature="Buy(java.lang.String)[pri:2, instance:org.in.Amazon@66a3ffec]" name="Buy" duration-ms="18338" started-at="2022-09-21T15:44:22Z" finished-at="2022-09-21T15:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BCCA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Buy -->
+      </class> <!-- org.in.Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
